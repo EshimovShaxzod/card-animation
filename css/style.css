@@ -13,6 +13,12 @@
     overflow: hidden;
     border-radius: 10px;
 }
+.div{
+    width: 55px;
+    height: 3px;
+    background-color: yellow;
+    margin: 0 auto;
+}
 .box:hover{
     opacity: 0.9;
     transition: 1.2s;
@@ -25,7 +31,8 @@
 h1{
     color: darkcyan;
     text-align: center;
-    padding: 35px 0;
+    padding-top: 35px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     font-family: sans-serif;
 }
@@ -40,6 +47,7 @@ h1{
 .content p{
     color: white;
     text-align: center;
+    margin-top: 15px;
     margin-bottom: 35px;
     font-family: sans-serif;
     font-weight: 400;
@@ -66,7 +74,7 @@ h1{
     list-style: none;
 }
 .bx{
-    color: yellow;
+    color: rgb(255, 213, 0);
     font-size: 24px;
     margin-right: 5px;
 }
